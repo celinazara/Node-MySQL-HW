@@ -18,7 +18,7 @@ var connection = mysql.createConnection({
 //printing items for sale
 connection.query('SELECT * FROM Products', function (err, res) {
     if(err) throw err;
-     console.log("Welcome to Bamazon!");
+     console.log('_.~"~._.~"~._.~Welcome to Bamazon~._.~"~._.~"~._')
      console.log("------------------------------------");
 
     for(var i=0; i<res.length; i++){
